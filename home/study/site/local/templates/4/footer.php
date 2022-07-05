@@ -66,20 +66,20 @@
 
   </div>
 
-  <script src="/home/study/site/local/templates/4/js/jquery-3.3.1.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/jquery-ui.js"></script>
-  <script src="/home/study/site/local/templates/4/js/popper.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/bootstrap.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/owl.carousel.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/mediaelement-and-player.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/jquery.stellar.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/jquery.countdown.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/jquery.magnific-popup.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js//bootstrap-datepicker.min.js"></script>
-  <script src="/home/study/site/local/templates/4/js/aos.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/jquery-3.3.1.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/jquery-ui.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/popper.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/bootstrap.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/owl.carousel.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/mediaelement-and-player.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/jquery.stellar.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/jquery.countdown.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/jquery.magnific-popup.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js//bootstrap-datepicker.min.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/aos.js"></script>
 
-  <script src="/home/study/site/local/templates/4/js/main.js"></script>
+  <script src="/home/bitrix/www/local/templates/4/js/main.js"></script>
     
   </body>
 </html>

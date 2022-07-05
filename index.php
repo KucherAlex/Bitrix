@@ -1,5 +1,5 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"]."/home/bitrix/www/local/templates/4/header.php");
 $APPLICATION->SetTitle("Недвижимость");
 ?><p>
 	 <?$APPLICATION->IncludeComponent(
@@ -133,4 +133,4 @@ $APPLICATION->SetTitle("Недвижимость");
 	)
 );?>
 <p>
-</p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</p><?require($_SERVER["DOCUMENT_ROOT"]."/home/bitrix/www/local/templates/4/footer.php");?>

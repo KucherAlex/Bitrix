@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500"> 
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/magnific-popup.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/jquery-ui.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/mediaelementplayer.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/animate.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/fl-bigmug-line.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/magnific-popup.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/jquery-ui.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/mediaelementplayer.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/animate.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/fl-bigmug-line.css">
     
   
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/aos.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/aos.css">
 
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/style.css">
+    <link rel="stylesheet" href="/home/bitrix/www/local/templates/4/css/style.css">
     
   </head>
   <body>
