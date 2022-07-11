@@ -1,32 +1,62 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?
+use Bitrix\Main\Page\Asset;
+global $USER;
+IncludeTemplateLangFile(__FILE__);
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <title>HomeSpace &mdash; Colorlib Website Template</title>
+  <title><?$APPLICATION->ShowTitle();?></title>
+  <?$APPLICATION->ShowHead();?>
+
+
+  <? 
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/magnific-popup.css"); 
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/bootstrap.min.css"); 
+    Asset::getInstance()->addCss("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500"); 
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/jquery-ui.css"); 
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/owl.carousel.min.css");
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/owl.theme.default.min.css");
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/bootstrap-datepicker.css");
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/mediaelementplayer.css");
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/animate.css");
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/fonts/flaticon/font/flaticon.css");
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/fl-bigmug-line.css");
+
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/aos.css");
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/style.css");
+?>
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500"> 
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/fonts/icomoon/style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500"> 
+    <link rel="stylesheet" href="/home/study/site/local/templates/4/fonts/icomoon/style.css"> -->
 
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/magnific-popup.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/jquery-ui.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/mediaelementplayer.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/animate.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/fl-bigmug-line.css">
+    <!-- <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/jquery-ui.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/mediaelementplayer.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/animate.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/fl-bigmug-line.css">
     
   
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/aos.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/aos.css">
 
-    <link rel="stylesheet" href="/home/study/site/local/templates/4/css/style.css">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/style.css"> -->
     
   </head>
   <body>
-  
+  <div id="panel">
+      <?$APPLICATION->ShowPanel();?>
+  </div>
+
   <div class="site-loader"></div>
   
   <div class="site-wrap">
@@ -101,3 +131,5 @@
         </div>
       </div>
     </div>
+
+

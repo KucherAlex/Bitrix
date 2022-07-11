@@ -1,3 +1,6 @@
+
+
+
 <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -66,7 +69,25 @@
 
   </div>
 
-  <script src="/home/study/site/local/templates/4/js/jquery-3.3.1.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-3.3.1.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-ui.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/popper.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/owl.carousel.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/mediaelement-and-player.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.stellar.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.countdown.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.magnific-popup.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js//bootstrap-datepicker.min.js"></script>
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/aos.js"></script>
+
+  <script src="<?=SITE_TEMPLATE_PATH?>/js/main.js"></script>
+
+
+
+
+  <!-- <script src="/home/study/site/local/templates/4/js/jquery-3.3.1.min.js"></script>
   <script src="/home/study/site/local/templates/4/js/jquery-migrate-3.0.1.min.js"></script>
   <script src="/home/study/site/local/templates/4/js/jquery-ui.js"></script>
   <script src="/home/study/site/local/templates/4/js/popper.min.js"></script>
@@ -79,7 +100,7 @@
   <script src="/home/study/site/local/templates/4/js//bootstrap-datepicker.min.js"></script>
   <script src="/home/study/site/local/templates/4/js/aos.js"></script>
 
-  <script src="/home/study/site/local/templates/4/js/main.js"></script>
+  <script src="/home/study/site/local/templates/4/js/main.js"></script> -->
     
   </body>
 </html>
