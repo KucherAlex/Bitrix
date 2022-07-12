@@ -28,7 +28,6 @@ IncludeTemplateLangFile(__FILE__);
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/style.css");
 ?>
 
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -115,7 +114,18 @@ IncludeTemplateLangFile(__FILE__);
         <div class="container py-1">
           <div class="row align-items-center">
             <div class="col-8 col-md-8 col-lg-4">
-              <h1 class=""><a href="index.html" class="h5 text-uppercase text-black"><strong>HomeSpace<span class="text-danger">.</span></strong></a></h1>
+              <h1 class=""><a href="index.html" class="h5 text-uppercase text-black"><strong>
+              <?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/include/logo.php"
+	)
+);?>    
+              <span class="text-danger">.</span></strong></a></h1>
             </div>
             <div class="col-4 col-md-4 col-lg-8">
               <nav class="site-navigation text-right text-md-right" role="navigation">

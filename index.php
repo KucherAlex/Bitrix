@@ -3,9 +3,27 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Недвижимость");
 ?><p>
 </p>
-
 <p>
-	wwwwwwwwwwww
+	 <?$APPLICATION->IncludeComponent(
+	"bitrix:menu", 
+	"catalog_horizontal", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "top",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "A",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_THEME" => "site",
+		"ROOT_MENU_TYPE" => "top",
+		"USE_EXT" => "N",
+		"COMPONENT_TEMPLATE" => "catalog_horizontal"
+	),
+	false
+);?>wwwwwwwwwwww
 </p>
 <p>
 	 <?$APPLICATION->IncludeComponent(
@@ -174,7 +192,18 @@ $APPLICATION->SetTitle("Недвижимость");
 				<div class="feature d-flex align-items-start">
  <span class="icon mr-3 flaticon-house"></span>
 					<div class="text">
-						<h2 class="mt-0">Wide Range of Properties</h2>
+						<h2 class="mt-0">
+						<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/include/properties.php"
+	)
+);?> 
+						</h2>
 						<p>
 							 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem sint debitis porro quae dolorum neque.
 						</p>
@@ -185,7 +214,18 @@ $APPLICATION->SetTitle("Недвижимость");
 				<div class="feature d-flex align-items-start">
  <span class="icon mr-3 flaticon-rent"></span>
 					<div class="text">
-						<h2 class="mt-0">Rent or Sale</h2>
+						<h2 class="mt-0">
+						<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/include/rent.php"
+	)
+);?> 
+						</h2>
 						<p>
 							 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem sint debitis porro quae dolorum neque.
 						</p>
@@ -196,7 +236,18 @@ $APPLICATION->SetTitle("Недвижимость");
 				<div class="feature d-flex align-items-start">
  <span class="icon mr-3 flaticon-location"></span>
 					<div class="text">
-						<h2 class="mt-0">Property Location</h2>
+						<h2 class="mt-0">
+						<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/include/location.php"
+	)
+);?>
+						</h2>
 						<p>
 							 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem sint debitis porro quae dolorum neque.
 						</p>
